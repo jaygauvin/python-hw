@@ -1,0 +1,44 @@
+#JAY GAUVIN
+#HOMEWORK1
+#PYTHON PROGRAMMING
+#APRIL 10, 2015
+
+SAMPLE OUTPUT
+
+jMac:python jaygauvin$ python3 hw1.py
+Hi, What is your name? Jay
+Hello Jay! lets play a game!
+Think of a random number from 1 to 100, and I'll try to guess it!
+Is it 50? (yes/no) no
+Is the number larger than 50? yes
+Is it 75? (yes/no) no
+Is the number larger than 75? yes
+Is it 88? (yes/no) no
+Is the number larger than 88? yes
+Is it 94? (yes/no) no
+Is the number larger than 94? yes
+Is it 97? (yes/no) no
+Is the number larger than 97? yes
+Is it 99? (yes/no) no
+Is the number larger than 99? yes
+Is it 100? (yes/no) yes
+Yeey! I got it in 7 tries!
+Do you want to play more? yes
+Think of a random number from 1 to 100, and I'll try to guess it!
+Is it 50? (yes/no) n
+Is the number larger than 50? y
+Is it 75? (yes/no) n
+Is the number larger than 75? Y
+Is it 88? (yes/no) n
+Is the number larger than 88? N
+Is it 81? (yes/no) n
+Is the number larger than 81? y
+Is it 84? (yes/no) n
+Is the number larger than 84? y
+Is it 86? (yes/no) n
+Is the number larger than 86? y
+Is it 87? (yes/no) y
+Yeey! I got it in 7 tries!
+Do you want to play more? 
+Do you want to play more? no
+Bye-bye

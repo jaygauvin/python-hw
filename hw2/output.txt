@@ -1,0 +1,106 @@
+SAMPLE OUTPUT 1:
+================
+
+D:\Personal\Dropbox\UNH\Python\hw2>python hw2.py
+query:sheep and flower
+Performing: AND search for: {'flower', 'sheep'}
+
+Found at 31: For millions of years flowers have been producing thorns. For milli
+ons of years sheep have been eating them all the same. And it's not serious, try
+ing to understand why flowers go to such trouble to produce thorns that are good
+ for nothing? It's not important, the war between the sheep and the flowers? It'
+s no more serious and more important than the numbers that fat red gentleman is
+adding up? Suppose I happen to know a unique flower, one that exists nowhere in
+the world except on my planet, one that a little sheep can wipe out in a single
+bite one morning, just like that, without even realizing what he'd doing - that
+isn't important? If someone loves a flower of which just one example exists amon
+g all the millions and millions of stars, that's enough to make him happy when h
+e looks at the stars. He tells himself 'My flower's up there somewhere...' But i
+f the sheep eats the flower, then for him it's as if, suddenly, all the stars we
+nt out. And that isn't important?
+
+
+SAMPLE OUTPUT 2:
+================
+
+D:\Personal\Dropbox\UNH\Python\hw2>python hw2.py
+query:sheep or flower
+Performing: OR search for: {'flower', 'sheep'}
+
+Found at 10: If you love a flower that lives on a star, it is sweet to look at t
+he sky at night. All the stars are a-bloom with flowers...
+
+Found at 25: The proof that the little prince existed is that he was charming, t
+hat he laughed, and that he was looking for a sheep. If anybody wants a sheep, t
+hat is a proof that he exists.
+
+Found at 31: For millions of years flowers have been producing thorns. For milli
+ons of years sheep have been eating them all the same. And it's not serious, try
+ing to understand why flowers go to such trouble to produce thorns that are good
+ for nothing? It's not important, the war between the sheep and the flowers? It'
+s no more serious and more important than the numbers that fat red gentleman is
+adding up? Suppose I happen to know a unique flower, one that exists nowhere in
+the world except on my planet, one that a little sheep can wipe out in a single
+bite one morning, just like that, without even realizing what he'd doing - that
+isn't important? If someone loves a flower of which just one example exists amon
+g all the millions and millions of stars, that's enough to make him happy when h
+e looks at the stars. He tells himself 'My flower's up there somewhere...' But i
+f the sheep eats the flower, then for him it's as if, suddenly, all the stars we
+nt out. And that isn't important?
+
+Found at 38: I ought not to have listened to her,' he confided to me one day. 'O
+ne never ought to listen to the flowers. One should simply look at them and brea
+the their fragrance. Mine perfumed all my planet. But I did not know how to take
+ pleasure in all her grace.
+
+Found at 44: Of course, I love you,' the flower said to him. 'If you were not aw
+are of it, it was my fault.
+
+Found at 47: You know...my flower...I'm responsible for her. And she's so weak!
+And so naive. She has four ridiculous thorns to defend her against the world...
+
+Found at 58: "What a queer planet!" he thought. "It is altogether dry, and altog
+ether pointed, and altogether harsh and forbidding. And the people have no imagi
+nation. They repeat whatever one says to them . . . On my planet I had a flower;
+ she always was the first to speak . . .
+
+Found at 59: I know a planet where there is a certain red-faced gentleman. He ha
+s never smelled a flower. He has never looked at a star. He has never loved any
+one. He has never done anything in his life but add up figures. And all day he s
+ays over and over, just like you: 'I am busy with matters of consequence!' And t
+hat makes him swell up with pride. But he is not a man - he is a mushroom!
+
+Found at 71: But I, alas, do not know how to see sheep through the walls of boxe
+s. Perhaps I am a little like the grown-ups. I have had to grow old.
+
+Found at 77: If someone loves a flower of which just one exists among all the mi
+llions and millions of stars, that's enough to make him happy when he looks at t
+he stars.
+
+Found at 79: Will you draw me a sheep?
+
+Found at 81: If you love a flower that lives on a star, then it's good at night,
+ to look up at the sky. All the stars are blossoming.
+
+SAMPLE OUTPUT 3:
+================
+
+D:\Personal\Dropbox\UNH\Python\hw2>python hw2.py
+query:sheep sheep and flower or flower
+Performing: AND search for: {'sheep', 'flower'}
+
+Found at 31: For millions of years flowers have been producing thorns. For milli
+ons of years sheep have been eating them all the same. And it's not serious, try
+ing to understand why flowers go to such trouble to produce thorns that are good
+ for nothing? It's not important, the war between the sheep and the flowers? It'
+s no more serious and more important than the numbers that fat red gentleman is
+adding up? Suppose I happen to know a unique flower, one that exists nowhere in
+the world except on my planet, one that a little sheep can wipe out in a single
+bite one morning, just like that, without even realizing what he'd doing - that
+isn't important? If someone loves a flower of which just one example exists amon
+g all the millions and millions of stars, that's enough to make him happy when h
+e looks at the stars. He tells himself 'My flower's up there somewhere...' But i
+f the sheep eats the flower, then for him it's as if, suddenly, all the stars we
+nt out. And that isn't important?
+
+D:\Personal\Dropbox\UNH\Python\hw2>

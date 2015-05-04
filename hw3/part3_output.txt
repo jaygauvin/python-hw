@@ -1,0 +1,65 @@
+Jay Gauvin
+hw3 part3.py output
+
+The smart search is about 4 times faster than the dumb/brute search.
+But overall if you consider the proprocessing time its not much of a performance gain for a one time use,
+but if you can store the pre-processed data then it is useful.
+
+D:\Personal\Dropbox\UNH\Python\hw3>python part3.py
+query:flower and sheep
+Performing: AND search for: {'flower', 'sheep'}
+
+Comparisons Made: 4673
+[31]
+
+Dumb Search Execution Time: 4000
+
+Pre-Processing...
+
+Preprocessing Execution Time: 8001
+Performing: AND search for: {'flower', 'sheep'}
+
+Comparisons Made: 7
+[31]
+
+Smart Search Execution Time: 0
+
+D:\Personal\Dropbox\UNH\Python\hw3>python part3.py
+query:flower or sheep
+Performing: OR search for: {'sheep', 'flower'}
+
+Comparisons Made: 4673
+[10, 25, 31, 44, 59, 71, 77, 81]
+
+Dumb Search Execution Time: 4000
+
+Pre-Processing...
+
+Preprocessing Execution Time: 9001
+Performing: OR search for: {'sheep', 'flower'}
+
+Comparisons Made: 2
+[10, 25, 31, 44, 59, 71, 77, 81]
+
+Smart Search Execution Time: 1000
+
+D:\Personal\Dropbox\UNH\Python\hw3>python part3.py
+query:flower or fox
+Performing: OR search for: {'flower', 'fox'}
+
+Comparisons Made: 4746
+[2, 10, 19, 31, 37, 44, 51, 59, 69, 72, 77, 81]
+
+Dumb Search Execution Time: 4001
+
+Pre-Processing...
+
+Preprocessing Execution Time: 9001
+Performing: OR search for: {'flower', 'fox'}
+
+Comparisons Made: 2
+[2, 10, 19, 31, 37, 44, 51, 59, 69, 72, 77, 81]
+
+Smart Search Execution Time: 1000
+
+D:\Personal\Dropbox\UNH\Python\hw3>

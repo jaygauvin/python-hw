@@ -1,0 +1,2 @@
+D:\Personal\Dropbox\UNH\Python\hw3>python part2.py
+{'three': 2, 'seven': 1, 'one': 2, 'eleven': 3, 'two': 2}

@@ -1,0 +1,15 @@
+D:\Personal\Dropbox\UNH\Python\hw3>python part1.py
+What line position number?: 0
+Total Ears: 0
+
+D:\Personal\Dropbox\UNH\Python\hw3>python part1.py
+What line position number?: 1
+Total Ears: 2
+
+D:\Personal\Dropbox\UNH\Python\hw3>python part1.py
+What line position number?: 2
+Total Ears: 5
+
+D:\Personal\Dropbox\UNH\Python\hw3>python part1.py
+What line position number?: 3
+Total Ears: 7
