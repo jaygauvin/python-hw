@@ -1,0 +1,69 @@
+Jay Gauvin
+HW 4 Output
+
+Note: All files have the word "text" in them.  One file has the word "jay".
+
+D:\Personal\Dropbox\UNH\Python\hw4>python search_combine.py
+Refresh/Traverse Data Files? (y/n): y
+Added: D:\Personal\Dropbox\UNH\Python\hw4\fortune1\fortune1.log
+Added: D:\Personal\Dropbox\UNH\Python\hw4\fortune1\fortune1.txt
+Added: D:\Personal\Dropbox\UNH\Python\hw4\fortune1\fortune2\fortune2.log
+Added: D:\Personal\Dropbox\UNH\Python\hw4\fortune1\fortune2\fortune2.txt
+Added: D:\Personal\Dropbox\UNH\Python\hw4\fortune1\fortune2\fortune3\fortune3.log
+Added: D:\Personal\Dropbox\UNH\Python\hw4\fortune1\fortune2\fortune3\fortune3.txt
+Storing File Data to: Raw_Data.pickle
+
+Pre-Processing...
+Execution Time: 1001
+Shelving pre-processed data...
+Reading shelved data...
+
+Search Query:text
+Performing: AND search for: {'text'}
+
+D:\Personal\Dropbox\UNH\Python\hw4\fortune1\fortune1.log
+D:\Personal\Dropbox\UNH\Python\hw4\fortune1\fortune1.txt
+D:\Personal\Dropbox\UNH\Python\hw4\fortune1\fortune2\fortune2.log
+D:\Personal\Dropbox\UNH\Python\hw4\fortune1\fortune2\fortune2.txt
+D:\Personal\Dropbox\UNH\Python\hw4\fortune1\fortune2\fortune3\fortune3.log
+D:\Personal\Dropbox\UNH\Python\hw4\fortune1\fortune2\fortune3\fortune3.txt
+
+Execution Time: 1000
+===================================================================================
+D:\Personal\Dropbox\UNH\Python\hw4>python search_combine.py
+Refresh/Traverse Data Files? (y/n): n
+Reading shelved data...
+
+Search Query:jay
+Performing: AND search for: {'jay'}
+
+D:\Personal\Dropbox\UNH\Python\hw4\fortune1\fortune1.log
+
+Execution Time: 0
+
+D:\Personal\Dropbox\UNH\Python\hw4>
+
+====================================================================================
+
+D:\Personal\Dropbox\UNH\Python\hw4>python search_combine.py
+Refresh/Traverse Data Files? (y/n): n
+Reading shelved data...
+
+Search Query:text and jay
+Performing: AND search for: {'text', 'jay'}
+
+D:\Personal\Dropbox\UNH\Python\hw4\fortune1\fortune1.log
+
+Execution Time: 1000
+
+======================================================================================
+D:\Personal\Dropbox\UNH\Python\hw4>python search_combine.py
+Refresh/Traverse Data Files? (y/n): n
+Reading shelved data...
+
+Search Query:cat and mouse
+Performing: AND search for: {'cat', 'mouse'}
+
+D:\Personal\Dropbox\UNH\Python\hw4\fortune1\fortune2\fortune3\fortune3.log
+
+Execution Time: 1000
