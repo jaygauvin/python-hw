@@ -1,0 +1,47 @@
+Python 3.4.3 (v3.4.3:9b73f1c3e601, Feb 24 2015, 22:44:40) [MSC v.1600 64 bit (AMD64)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> ================================ RESTART ================================
+>>> 
+Refresh Data Sources? (y/n): n
+Reading shelved data...
+
+Search Query: graduate and computer
+Performing: AND search for: {'graduate', 'computer'}
+
+Server error retrieving weather.
+================================================================================
+Result 1: http://www.newhaven.edu
+	  Text Found:  Future Students Current Students Parents Veterans...
+================================================================================
+Result 2: http://www.newhaven.edu/
+	  Text Found:  Future Students Current Students Parents Veterans...
+================================================================================
+Result 3: http://www.newhaven.edu/4486/
+	  Text Found:  Future Students Current Students Parents Veterans...
+================================================================================
+Result 4: http://www.newhaven.edu/OIT/
+	  Text Found:  Future Students Current Students Parents Veterans...
+================================================================================
+Result 5: http://www.newhaven.edu/OIT/support/
+	  Text Found:  Future Students Current Students Parents Veterans...
+================================================================================
+Result 6: http://www.newhaven.edu/about/employment/
+	  Text Found:  Future Students Current Students Parents Veterans...
+================================================================================
+Result 7: http://www.newhaven.edu/academics/
+	  Text Found:  Future Students Current Students Parents Veterans...
+================================================================================
+Result 8: http://www.newhaven.edu/admissions/gradadmissions/
+	  Text Found:  Future Students Current Students Parents Veterans...
+================================================================================
+Result 9: http://www.newhaven.edu/admissions/ugrad/
+	  Text Found:  Future Students Current Students Parents Veterans...
+================================================================================
+Result 10: http://www.newhaven.edu/engineering/
+	  Text Found:  Future Students Current Students Parents Veterans...
+================================================================================
+Result 11: http://www.newhaven.edu/online
+	  Text Found:  Future Students Current Students Parents Veterans...
+
+Execution Time: 170017
+>>> 
