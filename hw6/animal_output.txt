@@ -1,0 +1,87 @@
+OUTPUT1:
+
+I will give you 3 hints, guess what animal I am.
+I have exceptional memory
+Who am I? dolphin
+Nope, try again!
+I am the largest land-living mammal in the world
+Who am I? elephant
+You got it! I am elephant
+
+I will give you 3 hints, guess what animal I am.
+I am the biggest cat
+Who am I? lion
+Nope, try again!
+I come in black and white or orange and black
+Who am I? tiger
+You got it! I am tiger
+
+I will give you 3 hints, guess what animal I am.
+I use echo-location
+Who am I? human
+Nope, try again!
+I can fly
+Who am I? butterly
+Nope, try again!
+I see well in dark
+Who am I? cat
+Nope, try again!
+I'm out of hints! The answer is: bat
+
+OUTPUT2:
+
+
+I will give you 3 hints, guess what animal I am.
+I have exceptional memory
+Who am I? elephant
+You got it! I am elephant
+
+I will give you 3 hints, guess what animal I am.
+I am the biggest cat
+Who am I? tiger
+You got it! I am tiger
+
+I will give you 3 hints, guess what animal I am.
+I use echo-location
+Who am I? bat
+You got it! I am bat
+
+
+OUTPUT3:
+
+
+I will give you 3 hints, guess what animal I am.
+I have exceptional memory
+Who am I? test
+Nope, try again!
+I am the largest land-living mammal in the world
+Who am I? test
+Nope, try again!
+I have a trunk for a nose
+Who am I? test
+Nope, try again!
+I'm out of hints! The answer is: elephant
+
+I will give you 3 hints, guess what animal I am.
+I am the biggest cat
+Who am I? test
+Nope, try again!
+I come in black and white or orange and black
+Who am I? test
+Nope, try again!
+I have scary teeth and claws
+Who am I? test
+Nope, try again!
+I'm out of hints! The answer is: tiger
+
+I will give you 3 hints, guess what animal I am.
+I use echo-location
+Who am I? test
+Nope, try again!
+I can fly
+Who am I? test
+Nope, try again!
+I see well in dark
+Who am I? test
+Nope, try again!
+I'm out of hints! The answer is: bat
