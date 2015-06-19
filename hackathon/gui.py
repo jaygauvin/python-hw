@@ -1,6 +1,8 @@
 #==========================
 # Jay Gauvin
 # Hackathon Project
+# ==> MAIN PROGRAM <==
+# Requires: pyttk, psutil
 #==========================
 
 from tkinter import *
@@ -9,6 +11,8 @@ import searcher
 import indexer
 import crawler
 import ttk #python -m pip install pyttk
+import threading
+import server
 
 def create_gui():
 	root = Tk()
@@ -93,3 +97,14 @@ def create_gui():
 	button.pack(side = RIGHT)
 	
 	mainloop()
+
+#create search server on separate thread
+t2 = threading.Thread(target=server.start_Search_Server)
+t2.start()
+
+#create cpu monitor on separate thread
+t3 = threading.Thread(target=server.start_CPU_Server)
+t3.start()
+
+#create gui on main thread
+create_gui()
